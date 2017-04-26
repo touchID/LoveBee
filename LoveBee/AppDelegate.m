@@ -24,18 +24,20 @@
 
     [SMSSDK registerApp:@"1d5d1daeb6300" withSecret:@"a80e2808008f4beeba3c6de5e85cb7fb"];
 
-    
-    if ([ITCAccountManager sharedInstance].isLogin) {
+    [super setupApplication:@"ITCTabBarController"];
+//    if ([ITCAccountManager sharedInstance].isLogin) {
 //        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
 //        ITCNavigationController *loginNaviController = [sb instantiateViewControllerWithIdentifier:@"LoginNaviController"];
         
-    UIViewController *controller = [[UIStoryboard storyboardWithName:@"Home" bundle:nil] instantiateInitialViewController];
-        
-        self.window.rootViewController = controller;
-    }
+//    UIViewController *controller = [[UIStoryboard storyboardWithName:@"Home" bundle:nil] instantiateInitialViewController];
+//        
+//        self.window.rootViewController = controller;
+//    }
 
     
-    return YES;
+
+        
+        return YES;
 }
 
 -(void)enterMain{

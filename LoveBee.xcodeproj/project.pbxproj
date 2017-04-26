@@ -20,14 +20,16 @@
 		84A8033D1EB08D6F00DED689 /* ITCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8031F1EB08D6F00DED689 /* ITCLoginViewController.m */; };
 		84A8033E1EB08D6F00DED689 /* ITCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803221EB08D6F00DED689 /* ITCNavigationController.m */; };
 		84A8033F1EB08D6F00DED689 /* ITCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803251EB08D6F00DED689 /* ITCRegisterViewController.m */; };
-		84A803401EB08D6F00DED689 /* ITCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803281EB08D6F00DED689 /* ITCTabBarController.m */; };
 		84A803411EB08D6F00DED689 /* ITCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8032B1EB08D6F00DED689 /* ITCTableViewController.m */; };
 		84A803421EB08D6F00DED689 /* ITCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8032E1EB08D6F00DED689 /* ITCViewController.m */; };
 		84A803431EB08D6F00DED689 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A803301EB08D6F00DED689 /* Home.storyboard */; };
 		84A803461EB08DCD00DED689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803451EB08DCD00DED689 /* AppDelegate.m */; };
+		84A8034B1EB092DB00DED689 /* UITabBarController+ITCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8034A1EB092DB00DED689 /* UITabBarController+ITCAddition.m */; };
 		84B835AF1EB04C3C0056C326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B835AE1EB04C3C0056C326 /* main.m */; };
 		84B835BA1EB04C3C0056C326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B835B91EB04C3C0056C326 /* Assets.xcassets */; };
 		84B835BD1EB04C3C0056C326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B835BB1EB04C3C0056C326 /* LaunchScreen.storyboard */; };
+		84FBF06D1EB0994D00F85AE6 /* ITCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF06C1EB0994D00F85AE6 /* ITCTabBarController.m */; };
+		84FBF06F1EB09D1B00F85AE6 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF06E1EB09D1B00F85AE6 /* Mine.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +61,6 @@
 		84A803241EB08D6F00DED689 /* ITCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCRegisterViewController.h; sourceTree = "<group>"; };
 		84A803251EB08D6F00DED689 /* ITCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCRegisterViewController.m; sourceTree = "<group>"; };
 		84A803271EB08D6F00DED689 /* ITCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCTabBarController.h; sourceTree = "<group>"; };
-		84A803281EB08D6F00DED689 /* ITCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCTabBarController.m; sourceTree = "<group>"; };
 		84A8032A1EB08D6F00DED689 /* ITCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCTableViewController.h; sourceTree = "<group>"; };
 		84A8032B1EB08D6F00DED689 /* ITCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCTableViewController.m; sourceTree = "<group>"; };
 		84A8032D1EB08D6F00DED689 /* ITCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCViewController.h; sourceTree = "<group>"; };
@@ -68,11 +69,15 @@
 		84A803441EB08DCD00DED689 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A803451EB08DCD00DED689 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84A803471EB08DE600DED689 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84A803491EB092DB00DED689 /* UITabBarController+ITCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ITCAddition.h"; sourceTree = "<group>"; };
+		84A8034A1EB092DB00DED689 /* UITabBarController+ITCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ITCAddition.m"; sourceTree = "<group>"; };
 		84B835AA1EB04C3C0056C326 /* LoveBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B835AE1EB04C3C0056C326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B835B91EB04C3C0056C326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		84B835BC1EB04C3C0056C326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B835BE1EB04C3C0056C326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FBF06C1EB0994D00F85AE6 /* ITCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCTabBarController.m; sourceTree = "<group>"; };
+		84FBF06E1EB09D1B00F85AE6 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +215,7 @@
 		84A803161EB08D6F00DED689 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				84A803481EB092DB00DED689 /* UITabBarController */,
 				84A803171EB08D6F00DED689 /* ITCAppDelegate */,
 				84A8031A1EB08D6F00DED689 /* ITCCollectionViewController */,
 				84A8031D1EB08D6F00DED689 /* ITCLoginViewController */,
@@ -271,7 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				84A803271EB08D6F00DED689 /* ITCTabBarController.h */,
-				84A803281EB08D6F00DED689 /* ITCTabBarController.m */,
+				84FBF06C1EB0994D00F85AE6 /* ITCTabBarController.m */,
 			);
 			path = ITCTabBarController;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 		84A803311EB08D6F00DED689 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				84FBF06E1EB09D1B00F85AE6 /* Mine.storyboard */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -321,6 +328,15 @@
 			children = (
 			);
 			path = Supermarket;
+			sourceTree = "<group>";
+		};
+		84A803481EB092DB00DED689 /* UITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				84A803491EB092DB00DED689 /* UITabBarController+ITCAddition.h */,
+				84A8034A1EB092DB00DED689 /* UITabBarController+ITCAddition.m */,
+			);
+			path = UITabBarController;
 			sourceTree = "<group>";
 		};
 		84B835A11EB04C3C0056C326 = {
@@ -439,6 +455,7 @@
 				84B835BD1EB04C3C0056C326 /* LaunchScreen.storyboard in Resources */,
 				84B835BA1EB04C3C0056C326 /* Assets.xcassets in Resources */,
 				84A803431EB08D6F00DED689 /* Home.storyboard in Resources */,
+				84FBF06F1EB09D1B00F85AE6 /* Mine.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +514,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A803401EB08D6F00DED689 /* ITCTabBarController.m in Sources */,
 				84A803361EB08D6F00DED689 /* ITCGetRegCodeWebService.m in Sources */,
 				84A8033A1EB08D6F00DED689 /* NSString+MD5.m in Sources */,
 				84A803371EB08D6F00DED689 /* ITCLoginWebService.m in Sources */,
@@ -508,7 +524,9 @@
 				84A8033E1EB08D6F00DED689 /* ITCNavigationController.m in Sources */,
 				84B835AF1EB04C3C0056C326 /* main.m in Sources */,
 				84A803381EB08D6F00DED689 /* ITCRegisterWebService.m in Sources */,
+				84FBF06D1EB0994D00F85AE6 /* ITCTabBarController.m in Sources */,
 				84A803351EB08D6F00DED689 /* ITCChannelLoginWebService.m in Sources */,
+				84A8034B1EB092DB00DED689 /* UITabBarController+ITCAddition.m in Sources */,
 				84A803411EB08D6F00DED689 /* ITCTableViewController.m in Sources */,
 				84A8033D1EB08D6F00DED689 /* ITCLoginViewController.m in Sources */,
 				84A803461EB08DCD00DED689 /* AppDelegate.m in Sources */,

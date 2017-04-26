@@ -26,15 +26,19 @@
     
     
 //引导页判断
-//    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Guide" bundle:nil];
-//    UIViewController *controller = [sb instantiateInitialViewController];
-//    self.window.rootViewController = [self selectRoot] ? controller :tabBarController;
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
+    UIViewController *controller = [sb instantiateInitialViewController];
+    self.window.rootViewController = [self selectRoot] ? controller :tabBarController;
     
-//无引导页
-    self.window.rootViewController = tabBarController;
 
     [self.window makeKeyAndVisible];
 }
+
+//-(void)serupRootViewController{
+    //无引导页
+    //    self.window.rootViewController = tabBarController;
+//}
+
 
 // 首启动根控制器选择
 - (Boolean)selectRoot{

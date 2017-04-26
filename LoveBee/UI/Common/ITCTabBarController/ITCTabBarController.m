@@ -7,6 +7,7 @@
 //
 
 #import "ITCTabBarController.h"
+#import "UITabBarController+ITCAddition.h"
 
 @interface ITCTabBarController ()
 
@@ -16,22 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    [self addChildViewControllers];
+    
+}
+-(void)addChildViewControllers{
+    UIViewController *homeNavController = [UITabBarController itc_navControllerWithSbName:@"Home" title:@"首页" imageName:@"v2_home"];
+    //[UITabBarController itc_addChildControllerWith:@"ITCHomeTableViewController" title:@"首页"  imageName:@"v2_home"];
+    [self addChildViewController:homeNavController];
+//    UIViewController *discoverNavController = [UITabBarController itc_addChildControllerWith:@"ITCSupermarketTableViewController" title:@"闪送超市"  imageName:@"v2_order"];
+//    [self addChildViewController:discoverNavController];
+//    
+//    UIViewController *messageNavController = [UITabBarController itc_addChildControllerWith:@"ITCShoppingCartTableViewController" title:@"购物车"  imageName:@"shopCart"];
+//    [self addChildViewController:messageNavController];
+    UIViewController *mineNavController = [UITabBarController itc_navControllerWithSbName:@"Mine" title:@"我的" imageName:@"v2_my"];
+    
+    //[UITabBarController itc_addChildControllerWith:@"ITCMineViewController" title:@"我的"  imageName:@"v2_my"];
+    [self addChildViewController:mineNavController];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
