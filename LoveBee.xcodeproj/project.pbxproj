@@ -7,23 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C8B299F09D420C4FDBCA062 /* libPods-LoveBee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01364BD63046F7FBA151B5D6 /* libPods-LoveBee.a */; };
+		84A803341EB08D6F00DED689 /* ITCAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A802FF1EB08D6F00DED689 /* ITCAccountManager.m */; };
+		84A803351EB08D6F00DED689 /* ITCChannelLoginWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803021EB08D6F00DED689 /* ITCChannelLoginWebService.m */; };
+		84A803361EB08D6F00DED689 /* ITCGetRegCodeWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803041EB08D6F00DED689 /* ITCGetRegCodeWebService.m */; };
+		84A803371EB08D6F00DED689 /* ITCLoginWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803061EB08D6F00DED689 /* ITCLoginWebService.m */; };
+		84A803381EB08D6F00DED689 /* ITCRegisterWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803081EB08D6F00DED689 /* ITCRegisterWebService.m */; };
+		84A803391EB08D6F00DED689 /* ITCWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8030A1EB08D6F00DED689 /* ITCWebService.m */; };
+		84A8033A1EB08D6F00DED689 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8030E1EB08D6F00DED689 /* NSString+MD5.m */; };
+		84A8033B1EB08D6F00DED689 /* ITCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803191EB08D6F00DED689 /* ITCAppDelegate.m */; };
+		84A8033C1EB08D6F00DED689 /* ITCCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8031C1EB08D6F00DED689 /* ITCCollectionViewController.m */; };
+		84A8033D1EB08D6F00DED689 /* ITCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8031F1EB08D6F00DED689 /* ITCLoginViewController.m */; };
+		84A8033E1EB08D6F00DED689 /* ITCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803221EB08D6F00DED689 /* ITCNavigationController.m */; };
+		84A8033F1EB08D6F00DED689 /* ITCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803251EB08D6F00DED689 /* ITCRegisterViewController.m */; };
+		84A803401EB08D6F00DED689 /* ITCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803281EB08D6F00DED689 /* ITCTabBarController.m */; };
+		84A803411EB08D6F00DED689 /* ITCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8032B1EB08D6F00DED689 /* ITCTableViewController.m */; };
+		84A803421EB08D6F00DED689 /* ITCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8032E1EB08D6F00DED689 /* ITCViewController.m */; };
+		84A803431EB08D6F00DED689 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A803301EB08D6F00DED689 /* Home.storyboard */; };
+		84A803461EB08DCD00DED689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803451EB08DCD00DED689 /* AppDelegate.m */; };
 		84B835AF1EB04C3C0056C326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B835AE1EB04C3C0056C326 /* main.m */; };
-		84B835B21EB04C3C0056C326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B835B11EB04C3C0056C326 /* AppDelegate.m */; };
-		84B835B51EB04C3C0056C326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B835B41EB04C3C0056C326 /* ViewController.m */; };
-		84B835B81EB04C3C0056C326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B835B61EB04C3C0056C326 /* Main.storyboard */; };
 		84B835BA1EB04C3C0056C326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B835B91EB04C3C0056C326 /* Assets.xcassets */; };
 		84B835BD1EB04C3C0056C326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B835BB1EB04C3C0056C326 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01364BD63046F7FBA151B5D6 /* libPods-LoveBee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveBee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C66481FCF5343D70EC5B7ED /* Pods-LoveBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveBee/Pods-LoveBee.debug.xcconfig"; sourceTree = "<group>"; };
+		510380A2BAE554F9A7B1AFF2 /* Pods-LoveBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveBee.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveBee/Pods-LoveBee.release.xcconfig"; sourceTree = "<group>"; };
+		84A802FE1EB08D6F00DED689 /* ITCAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCAccountManager.h; sourceTree = "<group>"; };
+		84A802FF1EB08D6F00DED689 /* ITCAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCAccountManager.m; sourceTree = "<group>"; };
+		84A803011EB08D6F00DED689 /* ITCChannelLoginWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCChannelLoginWebService.h; sourceTree = "<group>"; };
+		84A803021EB08D6F00DED689 /* ITCChannelLoginWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCChannelLoginWebService.m; sourceTree = "<group>"; };
+		84A803031EB08D6F00DED689 /* ITCGetRegCodeWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCGetRegCodeWebService.h; sourceTree = "<group>"; };
+		84A803041EB08D6F00DED689 /* ITCGetRegCodeWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCGetRegCodeWebService.m; sourceTree = "<group>"; };
+		84A803051EB08D6F00DED689 /* ITCLoginWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCLoginWebService.h; sourceTree = "<group>"; };
+		84A803061EB08D6F00DED689 /* ITCLoginWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCLoginWebService.m; sourceTree = "<group>"; };
+		84A803071EB08D6F00DED689 /* ITCRegisterWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCRegisterWebService.h; sourceTree = "<group>"; };
+		84A803081EB08D6F00DED689 /* ITCRegisterWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCRegisterWebService.m; sourceTree = "<group>"; };
+		84A803091EB08D6F00DED689 /* ITCWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCWebService.h; sourceTree = "<group>"; };
+		84A8030A1EB08D6F00DED689 /* ITCWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCWebService.m; sourceTree = "<group>"; };
+		84A8030D1EB08D6F00DED689 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		84A8030E1EB08D6F00DED689 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		84A803181EB08D6F00DED689 /* ITCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCAppDelegate.h; sourceTree = "<group>"; };
+		84A803191EB08D6F00DED689 /* ITCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCAppDelegate.m; sourceTree = "<group>"; };
+		84A8031B1EB08D6F00DED689 /* ITCCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCCollectionViewController.h; sourceTree = "<group>"; };
+		84A8031C1EB08D6F00DED689 /* ITCCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCCollectionViewController.m; sourceTree = "<group>"; };
+		84A8031E1EB08D6F00DED689 /* ITCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCLoginViewController.h; sourceTree = "<group>"; };
+		84A8031F1EB08D6F00DED689 /* ITCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCLoginViewController.m; sourceTree = "<group>"; };
+		84A803211EB08D6F00DED689 /* ITCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCNavigationController.h; sourceTree = "<group>"; };
+		84A803221EB08D6F00DED689 /* ITCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCNavigationController.m; sourceTree = "<group>"; };
+		84A803241EB08D6F00DED689 /* ITCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCRegisterViewController.h; sourceTree = "<group>"; };
+		84A803251EB08D6F00DED689 /* ITCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCRegisterViewController.m; sourceTree = "<group>"; };
+		84A803271EB08D6F00DED689 /* ITCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCTabBarController.h; sourceTree = "<group>"; };
+		84A803281EB08D6F00DED689 /* ITCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCTabBarController.m; sourceTree = "<group>"; };
+		84A8032A1EB08D6F00DED689 /* ITCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCTableViewController.h; sourceTree = "<group>"; };
+		84A8032B1EB08D6F00DED689 /* ITCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCTableViewController.m; sourceTree = "<group>"; };
+		84A8032D1EB08D6F00DED689 /* ITCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCViewController.h; sourceTree = "<group>"; };
+		84A8032E1EB08D6F00DED689 /* ITCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCViewController.m; sourceTree = "<group>"; };
+		84A803301EB08D6F00DED689 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		84A803441EB08DCD00DED689 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A803451EB08DCD00DED689 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A803471EB08DE600DED689 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		84B835AA1EB04C3C0056C326 /* LoveBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B835AE1EB04C3C0056C326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84B835B01EB04C3C0056C326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84B835B11EB04C3C0056C326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84B835B31EB04C3C0056C326 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84B835B41EB04C3C0056C326 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84B835B71EB04C3C0056C326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84B835B91EB04C3C0056C326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B835B91EB04C3C0056C326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		84B835BC1EB04C3C0056C326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B835BE1EB04C3C0056C326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,17 +80,256 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8B299F09D420C4FDBCA062 /* libPods-LoveBee.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B6B45405678B5E53BBA6C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01364BD63046F7FBA151B5D6 /* libPods-LoveBee.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A802FC1EB08D6F00DED689 /* BLL */ = {
+			isa = PBXGroup;
+			children = (
+				84A802FD1EB08D6F00DED689 /* ITCAccountManager */,
+				84A803001EB08D6F00DED689 /* ITCWebServices */,
+			);
+			path = BLL;
+			sourceTree = "<group>";
+		};
+		84A802FD1EB08D6F00DED689 /* ITCAccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				84A802FE1EB08D6F00DED689 /* ITCAccountManager.h */,
+				84A802FF1EB08D6F00DED689 /* ITCAccountManager.m */,
+			);
+			path = ITCAccountManager;
+			sourceTree = "<group>";
+		};
+		84A803001EB08D6F00DED689 /* ITCWebServices */ = {
+			isa = PBXGroup;
+			children = (
+				84A803011EB08D6F00DED689 /* ITCChannelLoginWebService.h */,
+				84A803021EB08D6F00DED689 /* ITCChannelLoginWebService.m */,
+				84A803031EB08D6F00DED689 /* ITCGetRegCodeWebService.h */,
+				84A803041EB08D6F00DED689 /* ITCGetRegCodeWebService.m */,
+				84A803051EB08D6F00DED689 /* ITCLoginWebService.h */,
+				84A803061EB08D6F00DED689 /* ITCLoginWebService.m */,
+				84A803071EB08D6F00DED689 /* ITCRegisterWebService.h */,
+				84A803081EB08D6F00DED689 /* ITCRegisterWebService.m */,
+				84A803091EB08D6F00DED689 /* ITCWebService.h */,
+				84A8030A1EB08D6F00DED689 /* ITCWebService.m */,
+			);
+			path = ITCWebServices;
+			sourceTree = "<group>";
+		};
+		84A8030B1EB08D6F00DED689 /* COMMON */ = {
+			isa = PBXGroup;
+			children = (
+				84A8030C1EB08D6F00DED689 /* 3rdLibs */,
+			);
+			path = COMMON;
+			sourceTree = "<group>";
+		};
+		84A8030C1EB08D6F00DED689 /* 3rdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				84A8030D1EB08D6F00DED689 /* NSString+MD5.h */,
+				84A8030E1EB08D6F00DED689 /* NSString+MD5.m */,
+			);
+			path = 3rdLibs;
+			sourceTree = "<group>";
+		};
+		84A8030F1EB08D6F00DED689 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84B835B91EB04C3C0056C326 /* Assets.xcassets */,
+				84A803101EB08D6F00DED689 /* Audio */,
+				84A803111EB08D6F00DED689 /* Fonts */,
+				84A803121EB08D6F00DED689 /* Html */,
+				84A803131EB08D6F00DED689 /* Images */,
+				84A803141EB08D6F00DED689 /* LocalizedStrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84A803101EB08D6F00DED689 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		84A803111EB08D6F00DED689 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84A803121EB08D6F00DED689 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		84A803131EB08D6F00DED689 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		84A803141EB08D6F00DED689 /* LocalizedStrings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalizedStrings;
+			sourceTree = "<group>";
+		};
+		84A803151EB08D6F00DED689 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84A803161EB08D6F00DED689 /* Common */,
+				84A8032F1EB08D6F00DED689 /* Home */,
+				84A803311EB08D6F00DED689 /* Mine */,
+				84A803321EB08D6F00DED689 /* ShoppingCart */,
+				84A803331EB08D6F00DED689 /* Supermarket */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84A803161EB08D6F00DED689 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84A803171EB08D6F00DED689 /* ITCAppDelegate */,
+				84A8031A1EB08D6F00DED689 /* ITCCollectionViewController */,
+				84A8031D1EB08D6F00DED689 /* ITCLoginViewController */,
+				84A803201EB08D6F00DED689 /* ITCNavigationController */,
+				84A803231EB08D6F00DED689 /* ITCRegisterViewController */,
+				84A803261EB08D6F00DED689 /* ITCTabBarController */,
+				84A803291EB08D6F00DED689 /* ITCTableViewController */,
+				84A8032C1EB08D6F00DED689 /* ITCViewController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84A803171EB08D6F00DED689 /* ITCAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84A803181EB08D6F00DED689 /* ITCAppDelegate.h */,
+				84A803191EB08D6F00DED689 /* ITCAppDelegate.m */,
+			);
+			path = ITCAppDelegate;
+			sourceTree = "<group>";
+		};
+		84A8031A1EB08D6F00DED689 /* ITCCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A8031B1EB08D6F00DED689 /* ITCCollectionViewController.h */,
+				84A8031C1EB08D6F00DED689 /* ITCCollectionViewController.m */,
+			);
+			path = ITCCollectionViewController;
+			sourceTree = "<group>";
+		};
+		84A8031D1EB08D6F00DED689 /* ITCLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A8031E1EB08D6F00DED689 /* ITCLoginViewController.h */,
+				84A8031F1EB08D6F00DED689 /* ITCLoginViewController.m */,
+			);
+			path = ITCLoginViewController;
+			sourceTree = "<group>";
+		};
+		84A803201EB08D6F00DED689 /* ITCNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				84A803211EB08D6F00DED689 /* ITCNavigationController.h */,
+				84A803221EB08D6F00DED689 /* ITCNavigationController.m */,
+			);
+			path = ITCNavigationController;
+			sourceTree = "<group>";
+		};
+		84A803231EB08D6F00DED689 /* ITCRegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A803241EB08D6F00DED689 /* ITCRegisterViewController.h */,
+				84A803251EB08D6F00DED689 /* ITCRegisterViewController.m */,
+			);
+			path = ITCRegisterViewController;
+			sourceTree = "<group>";
+		};
+		84A803261EB08D6F00DED689 /* ITCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				84A803271EB08D6F00DED689 /* ITCTabBarController.h */,
+				84A803281EB08D6F00DED689 /* ITCTabBarController.m */,
+			);
+			path = ITCTabBarController;
+			sourceTree = "<group>";
+		};
+		84A803291EB08D6F00DED689 /* ITCTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A8032A1EB08D6F00DED689 /* ITCTableViewController.h */,
+				84A8032B1EB08D6F00DED689 /* ITCTableViewController.m */,
+			);
+			path = ITCTableViewController;
+			sourceTree = "<group>";
+		};
+		84A8032C1EB08D6F00DED689 /* ITCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A8032D1EB08D6F00DED689 /* ITCViewController.h */,
+				84A8032E1EB08D6F00DED689 /* ITCViewController.m */,
+			);
+			path = ITCViewController;
+			sourceTree = "<group>";
+		};
+		84A8032F1EB08D6F00DED689 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84A803301EB08D6F00DED689 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84A803311EB08D6F00DED689 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		84A803321EB08D6F00DED689 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		84A803331EB08D6F00DED689 /* Supermarket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Supermarket;
+			sourceTree = "<group>";
+		};
 		84B835A11EB04C3C0056C326 = {
 			isa = PBXGroup;
 			children = (
 				84B835AC1EB04C3C0056C326 /* LoveBee */,
 				84B835AB1EB04C3C0056C326 /* Products */,
+				C046DB5CAEE0A3D2168D7C5D /* Pods */,
+				0B6B45405678B5E53BBA6C9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,12 +344,13 @@
 		84B835AC1EB04C3C0056C326 /* LoveBee */ = {
 			isa = PBXGroup;
 			children = (
-				84B835B01EB04C3C0056C326 /* AppDelegate.h */,
-				84B835B11EB04C3C0056C326 /* AppDelegate.m */,
-				84B835B31EB04C3C0056C326 /* ViewController.h */,
-				84B835B41EB04C3C0056C326 /* ViewController.m */,
-				84B835B61EB04C3C0056C326 /* Main.storyboard */,
-				84B835B91EB04C3C0056C326 /* Assets.xcassets */,
+				84A803471EB08DE600DED689 /* PrefixHeader.pch */,
+				84A802FC1EB08D6F00DED689 /* BLL */,
+				84A8030B1EB08D6F00DED689 /* COMMON */,
+				84A8030F1EB08D6F00DED689 /* Resources */,
+				84A803151EB08D6F00DED689 /* UI */,
+				84A803441EB08DCD00DED689 /* AppDelegate.h */,
+				84A803451EB08DCD00DED689 /* AppDelegate.m */,
 				84B835BB1EB04C3C0056C326 /* LaunchScreen.storyboard */,
 				84B835BE1EB04C3C0056C326 /* Info.plist */,
 				84B835AD1EB04C3C0056C326 /* Supporting Files */,
@@ -79,6 +366,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C046DB5CAEE0A3D2168D7C5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C66481FCF5343D70EC5B7ED /* Pods-LoveBee.debug.xcconfig */,
+				510380A2BAE554F9A7B1AFF2 /* Pods-LoveBee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +382,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B835C11EB04C3C0056C326 /* Build configuration list for PBXNativeTarget "LoveBee" */;
 			buildPhases = (
+				CE4F1B7C5472571D39F3A8F7 /* [CP] Check Pods Manifest.lock */,
 				84B835A61EB04C3C0056C326 /* Sources */,
 				84B835A71EB04C3C0056C326 /* Frameworks */,
 				84B835A81EB04C3C0056C326 /* Resources */,
+				C9A028A07E29B2704B9EC673 /* [CP] Embed Pods Frameworks */,
+				C78BA126636D07F22AB1CC9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,34 +438,88 @@
 			files = (
 				84B835BD1EB04C3C0056C326 /* LaunchScreen.storyboard in Resources */,
 				84B835BA1EB04C3C0056C326 /* Assets.xcassets in Resources */,
-				84B835B81EB04C3C0056C326 /* Main.storyboard in Resources */,
+				84A803431EB08D6F00DED689 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C78BA126636D07F22AB1CC9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveBee/Pods-LoveBee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A028A07E29B2704B9EC673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveBee/Pods-LoveBee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4F1B7C5472571D39F3A8F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84B835A61EB04C3C0056C326 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B835B51EB04C3C0056C326 /* ViewController.m in Sources */,
-				84B835B21EB04C3C0056C326 /* AppDelegate.m in Sources */,
+				84A803401EB08D6F00DED689 /* ITCTabBarController.m in Sources */,
+				84A803361EB08D6F00DED689 /* ITCGetRegCodeWebService.m in Sources */,
+				84A8033A1EB08D6F00DED689 /* NSString+MD5.m in Sources */,
+				84A803371EB08D6F00DED689 /* ITCLoginWebService.m in Sources */,
+				84A803391EB08D6F00DED689 /* ITCWebService.m in Sources */,
+				84A8033B1EB08D6F00DED689 /* ITCAppDelegate.m in Sources */,
+				84A803341EB08D6F00DED689 /* ITCAccountManager.m in Sources */,
+				84A803421EB08D6F00DED689 /* ITCViewController.m in Sources */,
+				84A8033E1EB08D6F00DED689 /* ITCNavigationController.m in Sources */,
 				84B835AF1EB04C3C0056C326 /* main.m in Sources */,
+				84A803381EB08D6F00DED689 /* ITCRegisterWebService.m in Sources */,
+				84A803351EB08D6F00DED689 /* ITCChannelLoginWebService.m in Sources */,
+				84A803411EB08D6F00DED689 /* ITCTableViewController.m in Sources */,
+				84A8033D1EB08D6F00DED689 /* ITCLoginViewController.m in Sources */,
+				84A803461EB08DCD00DED689 /* AppDelegate.m in Sources */,
+				84A8033F1EB08D6F00DED689 /* ITCRegisterViewController.m in Sources */,
+				84A8033C1EB08D6F00DED689 /* ITCCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84B835B61EB04C3C0056C326 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84B835B71EB04C3C0056C326 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84B835BB1EB04C3C0056C326 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -268,8 +621,10 @@
 		};
 		84B835C21EB04C3C0056C326 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C66481FCF5343D70EC5B7ED /* Pods-LoveBee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = LoveBee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ee.undo.LoveBee;
@@ -279,8 +634,10 @@
 		};
 		84B835C31EB04C3C0056C326 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510380A2BAE554F9A7B1AFF2 /* Pods-LoveBee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = LoveBee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ee.undo.LoveBee;
@@ -307,6 +664,7 @@
 				84B835C31EB04C3C0056C326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

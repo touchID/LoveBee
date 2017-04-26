@@ -6,12 +6,13 @@
 //  Copyright © 2017年 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ITCAppDelegate.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#define _AppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : ITCAppDelegate
 
+-(void)enterMain;
 
 @end
 
