@@ -22,17 +22,20 @@
     
 }
 -(void)addChildViewControllers{
+    //首页
     UIViewController *homeNavController = [UITabBarController itc_navControllerWithSbName:@"Home" title:@"首页" imageName:@"v2_home"];
-    //[UITabBarController itc_addChildControllerWith:@"ITCHomeTableViewController" title:@"首页"  imageName:@"v2_home"];
     [self addChildViewController:homeNavController];
-//    UIViewController *discoverNavController = [UITabBarController itc_addChildControllerWith:@"ITCSupermarketTableViewController" title:@"闪送超市"  imageName:@"v2_order"];
-//    [self addChildViewController:discoverNavController];
-//    
-//    UIViewController *messageNavController = [UITabBarController itc_addChildControllerWith:@"ITCShoppingCartTableViewController" title:@"购物车"  imageName:@"shopCart"];
-//    [self addChildViewController:messageNavController];
-    UIViewController *mineNavController = [UITabBarController itc_navControllerWithSbName:@"Mine" title:@"我的" imageName:@"v2_my"];
     
-    //[UITabBarController itc_addChildControllerWith:@"ITCMineViewController" title:@"我的"  imageName:@"v2_my"];
+    //"闪送超市"
+    UIViewController *supermarketNavController = [UITabBarController itc_addChildControllerWith:@"ITCSupermarketController" title:@"闪送超市"  imageName:@"v2_order"];
+    [self addChildViewController:supermarketNavController];
+
+    //购物车
+    UIViewController *shoppingCartNavController = [UITabBarController itc_addChildControllerWith:@"ITCShoppingCartTableViewController" title:@"购物车"  imageName:@"shopCart"];
+    [self addChildViewController:shoppingCartNavController];
+    
+    //我的
+    UIViewController *mineNavController = [UITabBarController itc_navControllerWithSbName:@"Mine" title:@"我的" imageName:@"v2_my"];
     [self addChildViewController:mineNavController];
 }
 

@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6C8B299F09D420C4FDBCA062 /* libPods-LoveBee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01364BD63046F7FBA151B5D6 /* libPods-LoveBee.a */; };
+		843447F81EB2CD910083550E /* ITCHomeHeaderTypeServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 843447F71EB2CD910083550E /* ITCHomeHeaderTypeServices.m */; };
+		843447FB1EB2CDA90083550E /* ITCHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 843447FA1EB2CDA90083550E /* ITCHomeManager.m */; };
+		84789AA41EB188A200A1DB95 /* ITCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84789AA21EB188A200A1DB95 /* ITCHomeTableViewCell.m */; };
+		84789AA51EB188A200A1DB95 /* ITCHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84789AA31EB188A200A1DB95 /* ITCHomeTableViewCell.xib */; };
+		84789ACB1EB1956E00A1DB95 /* ITCShowCommodityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84789ACA1EB1956E00A1DB95 /* ITCShowCommodityView.m */; };
+		84789AD11EB197C300A1DB95 /* ITCShowCommodityCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84789AD01EB197C300A1DB95 /* ITCShowCommodityCollectionViewFlowLayout.m */; };
+		84789AD51EB1985B00A1DB95 /* ITCShowCommodityViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84789AD31EB1985B00A1DB95 /* ITCShowCommodityViewCell.m */; };
+		84789AD61EB1985B00A1DB95 /* ITCShowCommodityViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84789AD41EB1985B00A1DB95 /* ITCShowCommodityViewCell.xib */; };
+		84789AD81EB1E29000A1DB95 /* HomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84789AD71EB1E29000A1DB95 /* HomeHeaderView.xib */; };
+		84789ADB1EB1E5EB00A1DB95 /* ITCHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84789ADA1EB1E5EB00A1DB95 /* ITCHomeHeaderView.m */; };
+		84789ADE1EB1F09D00A1DB95 /* ITCHomeHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84789ADD1EB1F09D00A1DB95 /* ITCHomeHeaderFlowLayout.m */; };
+		84789AE21EB2023800A1DB95 /* ITCHomeHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84789AE01EB2023800A1DB95 /* ITCHomeHeaderCell.m */; };
+		84789AE31EB2023800A1DB95 /* ITCHomeHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84789AE11EB2023800A1DB95 /* ITCHomeHeaderCell.xib */; };
 		84A803341EB08D6F00DED689 /* ITCAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A802FF1EB08D6F00DED689 /* ITCAccountManager.m */; };
 		84A803351EB08D6F00DED689 /* ITCChannelLoginWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803021EB08D6F00DED689 /* ITCChannelLoginWebService.m */; };
 		84A803361EB08D6F00DED689 /* ITCGetRegCodeWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A803041EB08D6F00DED689 /* ITCGetRegCodeWebService.m */; };
@@ -30,12 +43,39 @@
 		84B835BD1EB04C3C0056C326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B835BB1EB04C3C0056C326 /* LaunchScreen.storyboard */; };
 		84FBF06D1EB0994D00F85AE6 /* ITCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF06C1EB0994D00F85AE6 /* ITCTabBarController.m */; };
 		84FBF06F1EB09D1B00F85AE6 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF06E1EB09D1B00F85AE6 /* Mine.storyboard */; };
+		84FBF0721EB09E8C00F85AE6 /* ITCShoppingCartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF0711EB09E8C00F85AE6 /* ITCShoppingCartTableViewController.m */; };
+		84FBF0751EB09EF500F85AE6 /* ITCSupermarketController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF0741EB09EF500F85AE6 /* ITCSupermarketController.m */; };
+		84FBF07A1EB0B5D200F85AE6 /* ITCNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF0791EB0B5D200F85AE6 /* ITCNetworkTool.m */; };
+		84FBF07E1EB0B9BB00F85AE6 /* ITCHomeWebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF07D1EB0B9BB00F85AE6 /* ITCHomeWebServices.m */; };
+		84FBF08F1EB0BD8A00F85AE6 /* ITCHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF08E1EB0BD8A00F85AE6 /* ITCHomeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01364BD63046F7FBA151B5D6 /* libPods-LoveBee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveBee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C66481FCF5343D70EC5B7ED /* Pods-LoveBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveBee/Pods-LoveBee.debug.xcconfig"; sourceTree = "<group>"; };
 		510380A2BAE554F9A7B1AFF2 /* Pods-LoveBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveBee.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveBee/Pods-LoveBee.release.xcconfig"; sourceTree = "<group>"; };
+		843447F61EB2CD910083550E /* ITCHomeHeaderTypeServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCHomeHeaderTypeServices.h; sourceTree = "<group>"; };
+		843447F71EB2CD910083550E /* ITCHomeHeaderTypeServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCHomeHeaderTypeServices.m; sourceTree = "<group>"; };
+		843447F91EB2CDA90083550E /* ITCHomeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCHomeManager.h; sourceTree = "<group>"; };
+		843447FA1EB2CDA90083550E /* ITCHomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCHomeManager.m; sourceTree = "<group>"; };
+		84789AA11EB188A200A1DB95 /* ITCHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCHomeTableViewCell.h; sourceTree = "<group>"; };
+		84789AA21EB188A200A1DB95 /* ITCHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCHomeTableViewCell.m; sourceTree = "<group>"; };
+		84789AA31EB188A200A1DB95 /* ITCHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITCHomeTableViewCell.xib; sourceTree = "<group>"; };
+		84789AC91EB1956E00A1DB95 /* ITCShowCommodityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCShowCommodityView.h; sourceTree = "<group>"; };
+		84789ACA1EB1956E00A1DB95 /* ITCShowCommodityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCShowCommodityView.m; sourceTree = "<group>"; };
+		84789ACF1EB197C300A1DB95 /* ITCShowCommodityCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCShowCommodityCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		84789AD01EB197C300A1DB95 /* ITCShowCommodityCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCShowCommodityCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		84789AD21EB1985B00A1DB95 /* ITCShowCommodityViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCShowCommodityViewCell.h; sourceTree = "<group>"; };
+		84789AD31EB1985B00A1DB95 /* ITCShowCommodityViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCShowCommodityViewCell.m; sourceTree = "<group>"; };
+		84789AD41EB1985B00A1DB95 /* ITCShowCommodityViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITCShowCommodityViewCell.xib; sourceTree = "<group>"; };
+		84789AD71EB1E29000A1DB95 /* HomeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeHeaderView.xib; sourceTree = "<group>"; };
+		84789AD91EB1E5EB00A1DB95 /* ITCHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCHomeHeaderView.h; sourceTree = "<group>"; };
+		84789ADA1EB1E5EB00A1DB95 /* ITCHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCHomeHeaderView.m; sourceTree = "<group>"; };
+		84789ADC1EB1F09D00A1DB95 /* ITCHomeHeaderFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCHomeHeaderFlowLayout.h; sourceTree = "<group>"; };
+		84789ADD1EB1F09D00A1DB95 /* ITCHomeHeaderFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCHomeHeaderFlowLayout.m; sourceTree = "<group>"; };
+		84789ADF1EB2023800A1DB95 /* ITCHomeHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCHomeHeaderCell.h; sourceTree = "<group>"; };
+		84789AE01EB2023800A1DB95 /* ITCHomeHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCHomeHeaderCell.m; sourceTree = "<group>"; };
+		84789AE11EB2023800A1DB95 /* ITCHomeHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITCHomeHeaderCell.xib; sourceTree = "<group>"; };
 		84A802FE1EB08D6F00DED689 /* ITCAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCAccountManager.h; sourceTree = "<group>"; };
 		84A802FF1EB08D6F00DED689 /* ITCAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCAccountManager.m; sourceTree = "<group>"; };
 		84A803011EB08D6F00DED689 /* ITCChannelLoginWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCChannelLoginWebService.h; sourceTree = "<group>"; };
@@ -78,6 +118,16 @@
 		84B835BE1EB04C3C0056C326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FBF06C1EB0994D00F85AE6 /* ITCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCTabBarController.m; sourceTree = "<group>"; };
 		84FBF06E1EB09D1B00F85AE6 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		84FBF0701EB09E8C00F85AE6 /* ITCShoppingCartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCShoppingCartTableViewController.h; sourceTree = "<group>"; };
+		84FBF0711EB09E8C00F85AE6 /* ITCShoppingCartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCShoppingCartTableViewController.m; sourceTree = "<group>"; };
+		84FBF0731EB09EF500F85AE6 /* ITCSupermarketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCSupermarketController.h; sourceTree = "<group>"; };
+		84FBF0741EB09EF500F85AE6 /* ITCSupermarketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCSupermarketController.m; sourceTree = "<group>"; };
+		84FBF0781EB0B5D200F85AE6 /* ITCNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCNetworkTool.h; sourceTree = "<group>"; };
+		84FBF0791EB0B5D200F85AE6 /* ITCNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCNetworkTool.m; sourceTree = "<group>"; };
+		84FBF07C1EB0B9BB00F85AE6 /* ITCHomeWebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCHomeWebServices.h; sourceTree = "<group>"; };
+		84FBF07D1EB0B9BB00F85AE6 /* ITCHomeWebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCHomeWebServices.m; sourceTree = "<group>"; };
+		84FBF08D1EB0BD8A00F85AE6 /* ITCHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCHomeTableViewController.h; sourceTree = "<group>"; };
+		84FBF08E1EB0BD8A00F85AE6 /* ITCHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCHomeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +150,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		84A802FC1EB08D6F00DED689 /* BLL */ = {
+		843447F51EB2CD910083550E /* ITCHomeHeaderTypeServices */ = {
 			isa = PBXGroup;
 			children = (
+				843447F61EB2CD910083550E /* ITCHomeHeaderTypeServices.h */,
+				843447F71EB2CD910083550E /* ITCHomeHeaderTypeServices.m */,
+			);
+			name = ITCHomeHeaderTypeServices;
+			path = ITCHomeWebServices/ITCHomeHeaderTypeServices;
+			sourceTree = "<group>";
+		};
+		84789A9D1EB1882800A1DB95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84789ACF1EB197C300A1DB95 /* ITCShowCommodityCollectionViewFlowLayout.h */,
+				84789AD01EB197C300A1DB95 /* ITCShowCommodityCollectionViewFlowLayout.m */,
+				84789AC91EB1956E00A1DB95 /* ITCShowCommodityView.h */,
+				84789ACA1EB1956E00A1DB95 /* ITCShowCommodityView.m */,
+				84789AD21EB1985B00A1DB95 /* ITCShowCommodityViewCell.h */,
+				84789AD31EB1985B00A1DB95 /* ITCShowCommodityViewCell.m */,
+				84789AD41EB1985B00A1DB95 /* ITCShowCommodityViewCell.xib */,
+				84789AA11EB188A200A1DB95 /* ITCHomeTableViewCell.h */,
+				84789AA21EB188A200A1DB95 /* ITCHomeTableViewCell.m */,
+				84789AA31EB188A200A1DB95 /* ITCHomeTableViewCell.xib */,
+				84789ADC1EB1F09D00A1DB95 /* ITCHomeHeaderFlowLayout.h */,
+				84789ADD1EB1F09D00A1DB95 /* ITCHomeHeaderFlowLayout.m */,
+				84789AD91EB1E5EB00A1DB95 /* ITCHomeHeaderView.h */,
+				84789ADA1EB1E5EB00A1DB95 /* ITCHomeHeaderView.m */,
+				84789AD71EB1E29000A1DB95 /* HomeHeaderView.xib */,
+				84789ADF1EB2023800A1DB95 /* ITCHomeHeaderCell.h */,
+				84789AE01EB2023800A1DB95 /* ITCHomeHeaderCell.m */,
+				84789AE11EB2023800A1DB95 /* ITCHomeHeaderCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84789AF11EB2136500A1DB95 /* ITCHomeManager */ = {
+			isa = PBXGroup;
+			children = (
+				843447F91EB2CDA90083550E /* ITCHomeManager.h */,
+				843447FA1EB2CDA90083550E /* ITCHomeManager.m */,
+			);
+			path = ITCHomeManager;
+			sourceTree = "<group>";
+		};
+		84A802FC1EB08D6F00DED689 /* BLL(业务逻辑层) */ = {
+			isa = PBXGroup;
+			children = (
+				843447F51EB2CD910083550E /* ITCHomeHeaderTypeServices */,
+				84789AF11EB2136500A1DB95 /* ITCHomeManager */,
+				84FBF07B1EB0B99600F85AE6 /* ITCHomeWebServices */,
 				84A802FD1EB08D6F00DED689 /* ITCAccountManager */,
 				84A803001EB08D6F00DED689 /* ITCWebServices */,
 			);
+			name = "BLL(业务逻辑层)";
 			path = BLL;
 			sourceTree = "<group>";
 		};
@@ -146,6 +244,7 @@
 		84A8030C1EB08D6F00DED689 /* 3rdLibs */ = {
 			isa = PBXGroup;
 			children = (
+				84FBF0771EB0B5A000F85AE6 /* ITCNetworkTool */,
 				84A8030D1EB08D6F00DED689 /* NSString+MD5.h */,
 				84A8030E1EB08D6F00DED689 /* NSString+MD5.m */,
 			);
@@ -303,6 +402,9 @@
 		84A8032F1EB08D6F00DED689 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				84789A9D1EB1882800A1DB95 /* Views */,
+				84FBF08D1EB0BD8A00F85AE6 /* ITCHomeTableViewController.h */,
+				84FBF08E1EB0BD8A00F85AE6 /* ITCHomeTableViewController.m */,
 				84A803301EB08D6F00DED689 /* Home.storyboard */,
 			);
 			path = Home;
@@ -319,6 +421,8 @@
 		84A803321EB08D6F00DED689 /* ShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
+				84FBF0701EB09E8C00F85AE6 /* ITCShoppingCartTableViewController.h */,
+				84FBF0711EB09E8C00F85AE6 /* ITCShoppingCartTableViewController.m */,
 			);
 			path = ShoppingCart;
 			sourceTree = "<group>";
@@ -326,6 +430,8 @@
 		84A803331EB08D6F00DED689 /* Supermarket */ = {
 			isa = PBXGroup;
 			children = (
+				84FBF0731EB09EF500F85AE6 /* ITCSupermarketController.h */,
+				84FBF0741EB09EF500F85AE6 /* ITCSupermarketController.m */,
 			);
 			path = Supermarket;
 			sourceTree = "<group>";
@@ -361,7 +467,7 @@
 			isa = PBXGroup;
 			children = (
 				84A803471EB08DE600DED689 /* PrefixHeader.pch */,
-				84A802FC1EB08D6F00DED689 /* BLL */,
+				84A802FC1EB08D6F00DED689 /* BLL(业务逻辑层) */,
 				84A8030B1EB08D6F00DED689 /* COMMON */,
 				84A8030F1EB08D6F00DED689 /* Resources */,
 				84A803151EB08D6F00DED689 /* UI */,
@@ -380,6 +486,24 @@
 				84B835AE1EB04C3C0056C326 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FBF0771EB0B5A000F85AE6 /* ITCNetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				84FBF0781EB0B5D200F85AE6 /* ITCNetworkTool.h */,
+				84FBF0791EB0B5D200F85AE6 /* ITCNetworkTool.m */,
+			);
+			path = ITCNetworkTool;
+			sourceTree = "<group>";
+		};
+		84FBF07B1EB0B99600F85AE6 /* ITCHomeWebServices */ = {
+			isa = PBXGroup;
+			children = (
+				84FBF07C1EB0B9BB00F85AE6 /* ITCHomeWebServices.h */,
+				84FBF07D1EB0B9BB00F85AE6 /* ITCHomeWebServices.m */,
+			);
+			path = ITCHomeWebServices;
 			sourceTree = "<group>";
 		};
 		C046DB5CAEE0A3D2168D7C5D /* Pods */ = {
@@ -452,9 +576,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84789AE31EB2023800A1DB95 /* ITCHomeHeaderCell.xib in Resources */,
 				84B835BD1EB04C3C0056C326 /* LaunchScreen.storyboard in Resources */,
+				84789AA51EB188A200A1DB95 /* ITCHomeTableViewCell.xib in Resources */,
 				84B835BA1EB04C3C0056C326 /* Assets.xcassets in Resources */,
+				84789AD81EB1E29000A1DB95 /* HomeHeaderView.xib in Resources */,
 				84A803431EB08D6F00DED689 /* Home.storyboard in Resources */,
+				84789AD61EB1985B00A1DB95 /* ITCShowCommodityViewCell.xib in Resources */,
 				84FBF06F1EB09D1B00F85AE6 /* Mine.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,24 +642,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84789AD11EB197C300A1DB95 /* ITCShowCommodityCollectionViewFlowLayout.m in Sources */,
 				84A803361EB08D6F00DED689 /* ITCGetRegCodeWebService.m in Sources */,
 				84A8033A1EB08D6F00DED689 /* NSString+MD5.m in Sources */,
 				84A803371EB08D6F00DED689 /* ITCLoginWebService.m in Sources */,
 				84A803391EB08D6F00DED689 /* ITCWebService.m in Sources */,
 				84A8033B1EB08D6F00DED689 /* ITCAppDelegate.m in Sources */,
+				843447F81EB2CD910083550E /* ITCHomeHeaderTypeServices.m in Sources */,
+				84FBF07A1EB0B5D200F85AE6 /* ITCNetworkTool.m in Sources */,
+				84FBF0721EB09E8C00F85AE6 /* ITCShoppingCartTableViewController.m in Sources */,
 				84A803341EB08D6F00DED689 /* ITCAccountManager.m in Sources */,
 				84A803421EB08D6F00DED689 /* ITCViewController.m in Sources */,
+				84FBF08F1EB0BD8A00F85AE6 /* ITCHomeTableViewController.m in Sources */,
 				84A8033E1EB08D6F00DED689 /* ITCNavigationController.m in Sources */,
 				84B835AF1EB04C3C0056C326 /* main.m in Sources */,
 				84A803381EB08D6F00DED689 /* ITCRegisterWebService.m in Sources */,
+				843447FB1EB2CDA90083550E /* ITCHomeManager.m in Sources */,
 				84FBF06D1EB0994D00F85AE6 /* ITCTabBarController.m in Sources */,
+				84789ADB1EB1E5EB00A1DB95 /* ITCHomeHeaderView.m in Sources */,
+				84789ACB1EB1956E00A1DB95 /* ITCShowCommodityView.m in Sources */,
 				84A803351EB08D6F00DED689 /* ITCChannelLoginWebService.m in Sources */,
 				84A8034B1EB092DB00DED689 /* UITabBarController+ITCAddition.m in Sources */,
 				84A803411EB08D6F00DED689 /* ITCTableViewController.m in Sources */,
+				84FBF07E1EB0B9BB00F85AE6 /* ITCHomeWebServices.m in Sources */,
 				84A8033D1EB08D6F00DED689 /* ITCLoginViewController.m in Sources */,
+				84789AE21EB2023800A1DB95 /* ITCHomeHeaderCell.m in Sources */,
+				84789AD51EB1985B00A1DB95 /* ITCShowCommodityViewCell.m in Sources */,
+				84FBF0751EB09EF500F85AE6 /* ITCSupermarketController.m in Sources */,
 				84A803461EB08DCD00DED689 /* AppDelegate.m in Sources */,
+				84789AA41EB188A200A1DB95 /* ITCHomeTableViewCell.m in Sources */,
 				84A8033F1EB08D6F00DED689 /* ITCRegisterViewController.m in Sources */,
 				84A8033C1EB08D6F00DED689 /* ITCCollectionViewController.m in Sources */,
+				84789ADE1EB1F09D00A1DB95 /* ITCHomeHeaderFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

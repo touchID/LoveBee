@@ -36,7 +36,7 @@
     navController.tabBarItem.selectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@_selected",imageName]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     navController.tabBarItem.imageInsets = UIEdgeInsetsMake(0, 0, 0, 0);
 
-    [navController.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor darkGrayColor]} forState:UIControlStateSelected];//将字 变成隐藏颜色
+    [navController.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor darkGrayColor]} forState:UIControlStateSelected];//将字 变成深灰颜色
 
     return navController;
 }
@@ -48,14 +48,14 @@
     Class clz= NSClassFromString(clzName);
     UIViewController *controller = [[clz alloc] init];
     ITCNavigationController *nav = [[ITCNavigationController alloc] initWithRootViewController:controller];
-//    controller.title = title;
+    controller.title = title;
     
     controller.tabBarItem.image = [UIImage imageNamed:imageName];//未选中的图片样式
     
     controller.tabBarItem.selectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@_selected",imageName]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];//选中的图片样式
-    controller.tabBarItem.imageInsets = UIEdgeInsetsMake(5, 0, -5, 0);
+    controller.tabBarItem.imageInsets = UIEdgeInsetsMake(0, 0, 0, 0);
 
-    [controller.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor clearColor]} forState:UIControlStateSelected];//将字 变成隐藏颜色
+    [controller.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor darkGrayColor]} forState:UIControlStateSelected];//将字 变成深灰颜色
     
     
     return nav;
